@@ -1,0 +1,14 @@
+apiVersion: configsync.gke.io/v1beta1
+kind: RepoSync
+metadata:
+  name: repo-sync
+  namespace: boa
+spec:
+  sourceType: git
+  sourceFormat: unstructured
+  git:
+    repo: https://github.com/kiwonl/anthos-config-management-repo
+    branch: main
+    dir: config-repo/boa
+    auth: none
+    period: 30s
