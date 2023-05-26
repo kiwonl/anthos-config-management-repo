@@ -1,1 +1,1 @@
-# anthos-config-management-repo
+This is git repository for Anthos Config Management demo
