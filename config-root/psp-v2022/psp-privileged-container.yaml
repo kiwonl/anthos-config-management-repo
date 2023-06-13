@@ -32,7 +32,8 @@ metadata:
         minimumTemplateLibraryVersion: '1.11.1'
       }"
 spec:
-  enforcementAction: dryrun
+  # dryrun, warn, deny
+  enforcementAction: deny
   match:
     kinds:
     - apiGroups:
