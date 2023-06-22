@@ -33,7 +33,7 @@ metadata:
       }"
 spec:
   # dryrun, warn, deny
-  enforcementAction: warn
+  enforcementAction: deny
   match:
     kinds:
     - apiGroups:
